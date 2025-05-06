@@ -19,7 +19,7 @@ source:
 build:
   script:
     - mkdir parsers
-    - ${{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
+    - ${{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv
   number: 1
 
 requirements:
@@ -61,7 +61,7 @@ tests:
         - tests/
 
 about:
-  homepage: https://github.com/tree-sitter/tree-sitter-language-pack
+  homepage: https://github.com/Goldziher/tree-sitter-language-pack
   summary: 'A tree-sitter parser for templating languages like ERB and EJS.'
   description: |
     A tree-sitter parser for templating languages like ERB and EJS,
@@ -69,7 +69,7 @@ about:
     the delimiters <% and %>
   license: MIT
   license_file: LICENSE
-  repository: https://github.com/tree-sitter/tree-sitter-language-pack
+  repository: https://github.com/Goldziher/tree-sitter-language-pack
 
 extra:
   recipe-maintainers:
