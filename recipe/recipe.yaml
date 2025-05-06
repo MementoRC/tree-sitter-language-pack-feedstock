@@ -19,7 +19,7 @@ source:
 build:
   script:
     - mkdir parsers
-    - ${{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
+    - ${{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv
   number: 1
 
 requirements:
