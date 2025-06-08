@@ -1,6 +1,6 @@
 context:
   name: tree-sitter-language-pack
-  version: "0.7.3"
+  version: "0.8.0"
   python_min: '3.9'
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/Goldziher/tree-sitter-language-pack/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: b0c151f46184d2d5d5ffec0512d4611875b3ede71234e6ad1e7a7d514e3e0e57
+  sha256: de7796305228967d2f80ebabdf797f48565927f7b1fbd13c611a917723892336
   # No tests
   # url: https://pypi.org/packages/source/t/tree-sitter-language-pack/tree_sitter_language_pack-${{ version }}.tar.gz
   # sha256: 8fe73107045ce150aba2590bc5df114283162413da39dc264710a6ebccaf048c
