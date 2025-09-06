@@ -20,7 +20,7 @@ build:
   script:
     - mkdir parsers
     - ${{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv
-  number: 1
+  number: 2
 
 requirements:
   build:
